@@ -5,7 +5,7 @@ This project aims to show how to manage Oauth token lifecycle. You could freely 
 Based on [openid-client](https://github.com/panva/node-openid-client) to use it in your project, you need to add a dependency to `openid-client`, and then download the files [token.js](common/token.js) and [retry.js](common/retry.js) from this project, and add it in yours, feel free to adapt it if needed.
 
 ## First time run
-1. Clone the repo: git clone https://gitlab.tech.orange/oapi/oauth2-token-manager-for-nodeJS.git
+1. Clone the repo: git clone https://github.com/Orange-OpenSource/oauth2-token-manager-for-nodeJS.git
 
 2. Install project dependencies
 
