@@ -1,0 +1,36 @@
+{
+  "name": "oauth2-token-manager-for-nodeJS",
+  "description": "Manage Oauth token in NodeJs. This project aims to show how to manage Oauth token lifecycle. You could freely reuse the token module in your project. It use Got to handle http requests process.",
+  "version": "1.0.0",
+  "keywords": [
+    "oauth",
+    "token",
+    "openid",
+    "Orange"
+  ],
+  "homepage": "TOBEDEFINED",
+  "author": "https://github.com/Orange-OpenSource/oauth2-token-manager-for-nodeJS/graphs/contributors",
+  "contributors": [
+    "Orange SA"
+  ],
+  "scripts": {
+    "build": "cross-env-shell shx cp -r node_modules/boosted/dist/css/ public/stylesheets/",
+    "start": "node -r dotenv/config ./bin/www"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "debug": "~4.1.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "http-errors": "^1.7.3",
+    "morgan": "~1.9.1",
+    "openid-client": "^3.12.2",
+    "pug": "^2.0.4"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.0",
+    "got": "^11.0.0",
+    "shx": "^0.3.2",
+    "win-ca": "^3.1.1"
+  }
+}

@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  h1 Manage Oauth token in NodeJs
+  p This project aims to explain how to manage Oauth token lifecycle.
+  p Based on
+  a(href=`https://github.com/panva/node-openid-client`) openid-client
+  p to use it in your project, you need to add a dependency to openid-client, and put the file common/token.js from this project in yours.
+  p when it's done, you could use the module in any file of your project by importing the token module
+  p please note that this project also have 2 dependency that could be usefull
+  p dotenv to load configuration
+  p winca to load windows local certificate for Orange environnement (required for token request)
+  p More information in README.md file
+
+
