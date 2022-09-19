@@ -1,7 +1,7 @@
 {
   "name": "oauth2-token-manager-for-nodeJS",
   "description": "Manage Oauth token in NodeJs. This project aims to show how to manage Oauth token lifecycle. You could freely reuse the token module in your project. It use Got to handle http requests process.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "keywords": [
     "oauth",
     "token",
@@ -24,7 +24,7 @@
     "express": "^4.17.1",
     "http-errors": "^1.7.3",
     "morgan": "~1.9.1",
-    "openid-client": "^3.12.2",
+    "openid-client": "^5.1.9",
     "pug": "^3.0.1"
   },
   "devDependencies": {
