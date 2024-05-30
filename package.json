@@ -25,7 +25,7 @@
     "http-errors": "^1.7.3",
     "morgan": "~1.9.1",
     "openid-client": "^5.1.9",
-    "pug": "^3.0.1"
+    "pug": "^3.0.3"
   },
   "devDependencies": {
     "cross-env": "^7.0.0",
