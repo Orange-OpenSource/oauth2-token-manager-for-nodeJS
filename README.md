@@ -10,7 +10,8 @@ Based on [openid-client](https://github.com/panva/node-openid-client) to use it 
 2. Install project dependencies
 
     ```bash
-    yarn install
+    cd oauth2-token-manager-for-nodeJS
+    npm install
     ```
 
 3. Subscribe to [an API](https://developer.orange.com/products/) for this sample choose [An SMS API](https://developer.orange.com/?s=sms&c=&type=api)
