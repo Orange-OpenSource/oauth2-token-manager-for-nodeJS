@@ -7,10 +7,16 @@ Based on [openid-client](https://github.com/panva/node-openid-client) to use it 
 ## First time run
 1. Clone the repo: git clone https://github.com/Orange-OpenSource/oauth2-token-manager-for-nodeJS.git
 
-2. Install project dependencies
+2. Goes to the project folder, and the install project dependencies
 
+    With Yarn
     ```bash
     yarn install
+    ```
+
+    Or NPM
+    ```bash
+    npm install
     ```
 
 3. Subscribe to [an API](https://developer.orange.com/products/) for this sample choose [An SMS API](https://developer.orange.com/?s=sms&c=&type=api)
@@ -21,6 +27,12 @@ Based on [openid-client](https://github.com/panva/node-openid-client) to use it 
 
 6. Run the script
 
+   With Yarn
+    ```bash
+    yarn run start
+    ```
+
+    Or NPM
     ```bash
     npm run start
     ```
