@@ -30,7 +30,7 @@
   "devDependencies": {
     "cross-env": "^7.0.0",
     "got": "^12.5.3",
-    "shx": "^0.3.2",
+    "shx": "^0.4.0",
     "win-ca": "^3.5.0"
   }
 }
